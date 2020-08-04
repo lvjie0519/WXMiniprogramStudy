@@ -1,0 +1,5 @@
+<!--pages/self-define-component/views/my-edit-text/my-edit-text.wxml-->
+<view class="editTextStyle">
+  {{innerText}}
+</view>
+<slot></slot>

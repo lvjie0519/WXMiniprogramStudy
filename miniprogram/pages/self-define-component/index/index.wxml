@@ -1,0 +1,4 @@
+<!--miniprogram/pages/self-define-component/index/index.wxml-->
+<view>
+  <my-edit-text inner-text='Some text'></my-edit-text>
+</view>

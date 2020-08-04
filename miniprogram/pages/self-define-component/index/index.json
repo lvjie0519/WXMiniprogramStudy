@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-edit-text":"../views/my-edit-text/my-edit-text"
+  },
+  "navigationBarTitleText": "自定义组件学习"
+}

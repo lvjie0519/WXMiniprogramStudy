@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/component-study/component-study"
+    "pages/component-study/component-study",
+    "pages/self-define-component/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

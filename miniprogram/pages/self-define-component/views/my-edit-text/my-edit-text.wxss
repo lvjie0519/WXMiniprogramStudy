@@ -1,0 +1,11 @@
+/* pages/self-define-component/views/my-edit-text/my-edit-text.wxss */
+.editTextStyle{
+  display: flex;
+  height: 100rpx;
+  padding-left: 20rpx;
+  align-items: center;
+  background-color:#6495ED;
+  margin-bottom: 20rpx;
+  color: #ffffff;
+  font-size: 40rpx;
+}

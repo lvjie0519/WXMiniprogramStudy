@@ -57,5 +57,11 @@ Page({
     wx.navigateTo({
       url: '../component-study/component-study',
     })
+  },
+
+  openSelfDefineComponentStudyPage:function(){
+    wx.navigateTo({
+      url: '../self-define-component/index/index',
+    })
   }
 })

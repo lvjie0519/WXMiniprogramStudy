@@ -3,4 +3,7 @@
   <view class="itemBtnStyle" bindtap="openComponentStudyPage">
     Component 构造器学习
   </view>
+  <view class="itemBtnStyle" bindtap="openSelfDefineComponentStudyPage">
+    自定义组件学习
+  </view>
 </view>
