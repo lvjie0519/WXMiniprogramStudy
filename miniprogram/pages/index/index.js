@@ -11,6 +11,7 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
+    console.log('lvjie', 'bindViewTap...');
     wx.navigateTo({
       url: '../logs/logs'
     })
@@ -49,6 +50,12 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+
+  openComponentStudyPage:function(){
+    wx.navigateTo({
+      url: '../component-study/component-study',
     })
   }
 })
