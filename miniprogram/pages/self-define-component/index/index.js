@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    innerText:'inner-text'
   },
 
   /**
@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  updateValueToComponent(){
+    this.setData({
+      innerText:this.data.innerText+"-abc"
+    });
+  },
 })

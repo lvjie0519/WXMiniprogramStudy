@@ -1,4 +1,7 @@
 <!--miniprogram/pages/self-define-component/index/index.wxml-->
 <view>
-  <my-edit-text inner-text='Some text'></my-edit-text>
+  <my-edit-text innerText="{{innerText}}">
+    <view>这里是插入到组件slot中的内容</view>
+  </my-edit-text>
+  <view class="itemBtnStyle" bindtap="updateValueToComponent">点击更新数据到子组件</view>
 </view>
