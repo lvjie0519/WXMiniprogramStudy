@@ -11,6 +11,8 @@ Component({
     }
   },
 
+  externalClasses:['out-style'],
+
   /**
    * 组件的初始数据
    */

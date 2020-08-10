@@ -9,3 +9,8 @@
   color: #ffffff;
   font-size: 40rpx;
 }
+
+.textStyle{
+  color: #080808;
+  font-size: 40rpx;
+}
